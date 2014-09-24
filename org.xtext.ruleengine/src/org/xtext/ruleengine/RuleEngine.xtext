@@ -1,0 +1,24 @@
+grammar org.xtext.ruleengine.RuleEngine with org.eclipse.xtext.xbase.Xbase
+
+generate ruleEngine "http://www.xtext.org/ruleengine/RuleEngine"
+
+Model:
+	declarations+=Declaration*;
+	
+Declaration : 
+	Device | Rule
+;
+
+Device :
+	'Device' name=ID 'can' 'be'
+		(states+=State (',' states+=State)*)?
+;
+
+State :
+	name=ID
+;
+
+Rule:
+	'Rule' description=STRING
+		'when' deviceState=[State|QualifiedName]
+		'then' thenPart=XExpression;
