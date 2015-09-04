@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xtext.homeautomation/src-gen" editDirectory="/org.xtext.homeautomation.edit/src"
+    editorDirectory="/org.xtext.homeautomation.editor/src" modelPluginID="org.xtext.homeautomation"
+    forceOverwrite="true" modelName="Rules" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="org.xtext.homeautomation.edit"
+    editorPluginID="org.xtext.homeautomation.editor" runtimeVersion="2.11">
+  <genPackages prefix="Rules" basePackage="org.xtext.homeautomation" disposableProviderFactory="true"
+      fileExtensions="rules" ecorePackage="Rules.ecore#/">
+    <genClasses ecoreClass="Rules.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rules.ecore#//Model/declarations"/>
+    </genClasses>
+    <genClasses ecoreClass="Rules.ecore#//Declaration"/>
+    <genClasses ecoreClass="Rules.ecore#//Device">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rules.ecore#//Device/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rules.ecore#//Device/states"/>
+    </genClasses>
+    <genClasses ecoreClass="Rules.ecore#//State">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rules.ecore#//State/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Rules.ecore#//Rule">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rules.ecore#//Rule/description"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rules.ecore#//Rule/when"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rules.ecore#//Rule/then"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

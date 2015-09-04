@@ -1,0 +1,11 @@
+[2015-09-04 09:31:32] Executing startup tasks
+[2015-09-04 09:31:32] Product self.product.version
+[2015-09-04 09:31:32] Bundle org.eclipse.oomph.setup 1.1.0.v20150610-1559, build=1444, branch=9b846cb2fa74dc1b5b2c2252635dafb407165843, commit=9b846cb2fa74dc1b5b2c2252635dafb407165843
+[2015-09-04 09:31:32] Bundle org.eclipse.oomph.setup.core 1.1.0.v20150610-0657, build=1444, branch=9b846cb2fa74dc1b5b2c2252635dafb407165843, commit=9b846cb2fa74dc1b5b2c2252635dafb407165843
+[2015-09-04 09:31:32] Bundle org.eclipse.oomph.setup.p2 1.1.0.v20150609-0914, build=1444, branch=9b846cb2fa74dc1b5b2c2252635dafb407165843, commit=9b846cb2fa74dc1b5b2c2252635dafb407165843
+[2015-09-04 09:31:33] Performing Preference /instance/org.eclipse.core.resources/encoding = UTF-8
+[2015-09-04 09:31:33] Performing Preference /instance/org.eclipse.core.resources/refresh.lightweight.enabled = false
+[2015-09-04 09:31:33] Performing Preference /instance/org.eclipse.ui.editors/lineNumberRuler = true
+[2015-09-04 09:31:33] Performing Preference /instance/org.eclipse.ui.editors/spellingEnabled = true
+[2015-09-04 09:31:33] Performing Preference /instance/org.eclipse.ui.workbench/RUN_IN_BACKGROUND = true
+[2015-09-04 09:31:33] 
